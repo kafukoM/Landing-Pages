@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333;
+    height: 782px;
+   
+}
+
+.flex {
+    display: flex;
+}
+
+.banner {
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.pawa-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;    
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-menu {
+    margin-left: auto;
+}
+
+.searchContainer {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.logo {
+    height: 70px;
+    width: 180px;
+}
+
+.searchContainer input {
+    width: 450px;
+    padding: 10px;
+    border: 0;
+}
+
+.searchIcon {
+    padding: 0.5rem;
+}
+
+
+a {
+    margin: 10px;
+    color: white;
+    padding: 50px 0;
+}
+
+.nav-header {
+    background-color: black;
+    color: white;
+    height: 75px;
+}
+
+.btn {
+    background-color: lime;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+}
+
+.grid-3 {
+    display: grid;
+    border-right: 1px solid black;
+    grid-template-columns: 2fr 4fr 3fr;
+    grid-template-rows: 1fr 2fr auto;
+    height: 100%;
+}
+
+.grid-one {
+    display: grid;
+    grid-template-rows: 65px 300px;
+    border-top: none;
+    border-right: 1px solid black;
+    height: 715px;
+}
+
+.dropdown-list {
+    border-bottom: 1px solid blue;
+}
+
+h2 {
+    font-size: 18px;
+    padding: 10px 0 10px 10px ;
+    border-bottom: 1px solid grey;
+
+}
+
+h1 {
+    border-bottom: 1px solid grey;
+    padding: 10px 0 10px 10px ;
+    background-color: lightgrey;
+
+}
+
+.drop-btn {
+    width: 70%;
+    height: 70%;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.home {
+    border-top: 1px solid ;
+}
+
+.arrow {
+    border: solid black;
+    margin-left: 130px;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.grid-two {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    border-right: black;
+    border-left: none;
+}
+
+.rowone {
+    border: 1px solid black;
+    border-left: white;
+    height: 270px;
+
+}
+
+.joker {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+}
+
+.sport-heading {
+    background-color: lightgray;
+    border-right: 1px solid black;
+}
+
+.football {
+    margin-left: 10px;
+}
+
+.grid-odds {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 40px;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    
+}
+
+.rowtwo {
+    margin-left: 10px;
+    border-right: 1px solid black;
+}
+
+
+
+.home-odds {
+    background-color: red;
+    width: 170px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+
+.draw-odds {
+    background-color: green;
+    width: 170px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+    border: 1px solid gray;
+
+}
+
+.away-odds {
+    background-color: yellow;
+    width: 170px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+    border: 1px solid gray;
+
+}
+
+.extra-odds {
+    background-color: blue;
+    margin-right: 5px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+    border: 1px solid gray;
+
+}
+
+
+.client-login a {
+    color: black;
+    text-decoration: underline;
+}
+
+.options {
+    border-bottom: none;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.client-login {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.bet-options {
+    background-color: lightgray;
+    margin-top: 10px;
+    height: 50px;
+    border: 1px solid lightgrey;
+}
+
+.sport-option1 {
+    justify-content: center;
+    background-color: white;
+}
+
+.sport-option2 {
+    justify-content: center;
+}
+
+.sport-option1 .fa {
+    background-color: rgb(177, 174, 174);
+    padding: 5px;
+}
+
+.sport-option2 .fa {
+    background-color: rgb(177, 174, 174);
+    padding: 5px;
+}
+
+.booking-form {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#bcode {
+    width: 80%;
+    height: 30px;
+    border: 1px solid lightgray;
+}
+
+.load-button {
+    width: 70px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.pump {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.betslip p{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.bet-button {
+    margin-left: 10px;
+    width: 98%;
+    padding: 15px 0 15px 0;
+    color: white;
+    background-color: black;
+    border: none;
+
+}

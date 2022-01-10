@@ -1,0 +1,10 @@
+1. Edit the title
+2. Identify elements that exist on page (h1, h2, btn, ul, footer, img, flex, grid, navbar, pre)
+3. h1,h2,button are housed in a container div class
+4. h3 elements exist in a flex div
+5. pre & image elements exist in a 2 column grid
+6. img, blockquote are in a flex container
+7. set box sizing property to all elements in the webpage
+8. To separate items in flex across row direction, use the margin property
+9. remove bullets from the ul using the list-style-type property set to none
+10. remove the underline using the text decoration property set to none

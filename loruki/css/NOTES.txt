@@ -1,0 +1,45 @@
+1. Create navbar class with a header element for the logo and nav element housing the Home, Features & Docs list items.
+   This is housed in a container class.
+2. Reset the box-sizing, margin, padding of all html elements within the css file. Border-box includes an element's border
+   and padding as part of the element's width & height It doesn,t include margin
+3. Remove text decoration from links
+4. Set top & bottom margin for the h1, h2, p elements
+5. Set image width to fill the respective container
+6. Set container with a max width, margin & padding
+7. Add flex utility class to the container class
+8. Set flex class for width for items to fill the container
+9. Set flex class for only the navbar to align the items on opposite sides of the containers
+10. Set the ul to display items horizontally
+11. Create section with showcase paragrapgh underneath it there should be a button that redirects user to the features page
+12. Create a card class underneath the section housing a form with a send button
+13. Add required validation for all the form inputs
+14. Create a custom CSS variable for the background color and apply it where necessary
+15. Create grid utility class with 2 columns of equal width and gap of 20px
+16. Set the grid class for only the showcase to have 2 columns of width 55% and 45% from L-R and gap of 30px
+17. Create and style the card utility class giving it rounded corners ,box-shadow, padding, margin
+18. Position the showcase card class as relative and apply top & height values
+19. Set the overflow created within the showcase grid class as visible
+20. Set the z-index so form is always first in the stack
+21. Set the margin for the form input classes
+22. Set the border-bottom & width for the form-control input types
+23. Remove outline when form input type is in focus
+24. Style the btn class by setting the display, padding, cursor, color, border, border-radius values
+25. apply hover effect on btn to scale down
+26. Apply before and after psedo classes to showcase class and set the skew property value
+27. Add prefixes to the skew to cater for the different web browsers 
+28. create a section for stats housed in a container
+29. Create a div housing the font awesome icons 
+30. Set padding for stats class 
+31. Create grid class for stats with 3 columns. Apply relevant properties
+32. Set the margin & padding utility classes for the stats using rem unit(1 rem = 16px). 
+33. Center the stats-heading class with a max width
+34. Create cli section with an image and 2 cards housed in grid utility class
+34. Set the cli class to have 3 cols and 3 rows with the image spanning across the relevant col/rows
+35. Create cloud section in html and apply relevant utility classes
+36. Set cloud grid with 2 columns of 4fr and 1fr
+37. Set utility classes for the background and button classes
+38. Create languages section with card elements and set its display to flex
+39. set the card elements to wrap onto next line on smaller viewports
+40. create a hover effect on the cards where they transition upwards
+41. Create footer class and set padding and background color
+42. Space out the social links
